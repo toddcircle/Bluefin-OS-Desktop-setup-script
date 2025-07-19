@@ -5,7 +5,7 @@ This script sets the following GNOME desktop preferences
 ## 🔧 Features
 
 - **Dual-sided window control buttons**  
-  I sometimes get confused moving the mouse to close the window only to find the contorls are on the other side.
+  (Mac + Window$ style) I sometimes get confused moving the mouse to close the window only to find the contorls are on the other side.
   Problem solved.
 
 - **Right-click on titlebar or window borders**  
