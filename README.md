@@ -5,18 +5,17 @@ This script sets the following GNOME desktop preferences
 ## 🔧 Features
 
 - **Dual-sided window control buttons**  
-  Adds close, minimize, and maximize buttons to both the left and right sides of windows.  
-  Perfect if you switch between macOS and Windows — no more fumbling for the window controls.
+  I sometimes get confused moving the mouse to close the window only to find the contorls are on the other side.
+  Problem solved.
 
-- **Right-click lowers windows**  
-  Right-clicking on the titlebar or window borders sends the window to the back.  
-  Incredibly useful, and it's surprising this isn't the default behavior.
+- **Right-click on titlebar or window borders**  
+  Throws the window to the back of the pile if you have multiple open windows on top of each other, to quickly find the one you're after.
+  I Can't understand why this isn't enabled and used as default, so useful.
 
-- **Natural scrolling**  
-  Enables natural (reverse) scrolling for both touchpad and mouse.  
-  Because scrolling down should move the content up — the way it *should* be.
+- **Natural scrolling for mouse**  
+  The the way it *should* be.
 
-## 🚀 How to Use
+## 🚀 How to Use:
 
 Open a terminal and run the following commands:
 
