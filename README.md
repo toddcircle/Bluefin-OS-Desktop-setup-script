@@ -15,8 +15,8 @@ This script sets the following GNOME desktop preferences
 - **Natural scrolling for mouse**  
   The the way it *should* be.
 
-  - **Nautilus text location**  
-  As there is no Up button something about breadcrumbs
+- **Nautilus text location**  
+  Uses the full text path in Nautilus, more practicle.
 
 ## 🚀 How to Use:
 
