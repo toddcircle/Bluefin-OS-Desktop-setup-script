@@ -18,6 +18,10 @@ This script sets the following GNOME desktop preferences
 - **Nautilus text location**  
   Uses the full text path in Nautilus, more practicle.
 
+- **Redirects wallpapers folder to backgrounds**  
+  Deletes ~/.local/share/wallpapers kde uses and creates a link to ~/.local/share/backgrounds.
+  So when wallpapers/backgrounds are downloaded by Linux Theme Store they get placed into the location gnome expects to find them.
+
 ## 🚀 How to Use:
 
 Open a terminal and run the following commands:
