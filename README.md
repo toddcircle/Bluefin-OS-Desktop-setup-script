@@ -33,6 +33,9 @@ currently for use with Bluefin OS.
 - **Enable Hot Corner**  
   More useable this way.
 
+- **Disable multiple desktops**
+  Only 1 workspace because... whats the point.
+  
 - **Adds missing apps**  
   Installs gedit, Brave Browser, Linux Theme Store, and Boxbuddy as a flatpak
   Adds calculator, Boxbuddy, gedit, Linux Theme Store, and Brave to the dock
