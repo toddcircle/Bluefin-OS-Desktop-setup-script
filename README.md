@@ -29,8 +29,11 @@ This script sets the following GNOME desktop preferences
   Disables auto screen brightness on laptop.  
   Why I hear you ask, well, it's annoying!
 
--**Enable Hot Corner**
+- **Enable Hot Corner**  
   More useable this way.
+
+- **Adds missing apps**  
+  Adds Terminal and calculator to the dock.
 
 - **Redirects wallpapers folder to backgrounds**  
   Deletes ~/.local/share/wallpapers kde uses and creates a link to ~/.local/share/backgrounds.
