@@ -11,6 +11,7 @@ gsettings set org.gnome.desktop.interface enable-hot-corners true
 # Flatpak installs
 flatpak info org.gnome.gedit >/dev/null 2>&1 || flatpak install -y flathub org.gnome.gedit
 flatpak info com.brave.Browser >/dev/null 2>&1 || flatpak install -y flathub com.brave.Browser
+flatpak info com.boxbuddy.BoxBuddy >/dev/null 2>&1 || flatpak install -y flathub com.boxbuddy.BoxBuddy
 
 # Add apps to dock favorites in one command to avoid overwriting
 gsettings set org.gnome.shell favorite-apps "$(python3 -c '
