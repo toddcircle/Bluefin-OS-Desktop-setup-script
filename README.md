@@ -1,6 +1,7 @@
 # GNOME Setup Script
 
 This script sets the following GNOME desktop preferences 
+currently for use with Bluefin OS.
 
 ## 🔧 Features
 
@@ -32,8 +33,9 @@ This script sets the following GNOME desktop preferences
 - **Enable Hot Corner**  
   More useable this way.
 
-- **Adds missing apps**  
-  Adds calculator to the dock.
+- **Adds missing apps**
+  Installs gedit as a flatpak
+  Adds calculator and gedit to the dock
 
 - **Redirects wallpapers folder to backgrounds**  
   Deletes ~/.local/share/wallpapers kde uses and creates a link to ~/.local/share/backgrounds.
