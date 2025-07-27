@@ -14,7 +14,6 @@ flatpak info com.brave.Browser >/dev/null 2>&1 || flatpak install --user -y flat
 flatpak info io.github.dvlv.boxbuddyrs >/dev/null 2>&1 || flatpak install --user -y flathub io.github.dvlv.boxbuddyrs
 flatpak info io.github.debasish_patra_1987.linuxthemestore >/dev/null 2>&1 || flatpak install --user -y flathub io.github.debasish_patra_1987.linuxthemestore
 
-
 # Add apps to dock favorites in one command to avoid overwriting
 gsettings set org.gnome.shell favorite-apps "$(python3 -c '
 import json, sys
