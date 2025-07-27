@@ -33,7 +33,7 @@ currently for use with Bluefin OS.
 - **Enable Hot Corner**  
   More useable this way.
 
-- **Disable multiple desktops**
+- **Disable multiple desktops**  
   Only 1 workspace because... whats the point.
   
 - **Adds missing apps**  
