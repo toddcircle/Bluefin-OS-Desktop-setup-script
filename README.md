@@ -27,8 +27,8 @@ currently for use with Bluefin OS.
   Enables Dark Mode
 
 - **Disable auto screen brightness**  
-  Disables auto screen brightness on laptop.  
-  Why I hear you ask, well, it's annoying!
+  Disables auto screen brightness on laptop because
+  it's annoying AF
 
 - **Enable Hot Corner**  
   More useable this way.
