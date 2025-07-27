@@ -34,7 +34,7 @@ currently for use with Bluefin OS.
   More useable this way.
 
 - **Adds missing apps**
-  Installs gedit as a flatpak
+  Installs gedit and Brave Browser as a flatpak
   Adds calculator and gedit to the dock
 
 - **Redirects wallpapers folder to backgrounds**  
