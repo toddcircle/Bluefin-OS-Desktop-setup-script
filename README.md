@@ -35,7 +35,7 @@ currently for use with Bluefin OS.
 
 - **Adds missing apps**
   Installs gedit and Brave Browser as a flatpak
-  Adds calculator and gedit to the dock
+  Adds calculator, boxbuddy, gedit and brave to the dock
 
 - **Redirects wallpapers folder to backgrounds**  
   Deletes ~/.local/share/wallpapers kde uses and creates a link to ~/.local/share/backgrounds.
