@@ -33,7 +33,7 @@ currently for use with Bluefin OS.
 - **Enable Hot Corner**  
   More useable this way.
 
-- **Adds missing apps**
+- **Adds missing apps**  
   Installs gedit, Brave Browser and Boxbuddy as a flatpak
   Adds calculator, boxbuddy, gedit and brave to the dock
 
