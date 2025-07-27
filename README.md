@@ -25,6 +25,9 @@ This script sets the following GNOME desktop preferences
   Disables auto screen brightness on laptop.  
   Why I hear you ask, well, it's annoying!
 
+-**Enable Hot Corner**
+  More useable this way.
+
 - **Redirects wallpapers folder to backgrounds**  
   Deletes ~/.local/share/wallpapers kde uses and creates a link to ~/.local/share/backgrounds.
   So when wallpapers/backgrounds are downloaded by Linux Theme Store they get placed into the location gnome expects to find them.
