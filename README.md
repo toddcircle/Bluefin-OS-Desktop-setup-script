@@ -50,7 +50,7 @@ Open a terminal and run the following commands:
 
 ```bash
 # Clone the repository
-git clone https://github.com/toddcircle/gnome-setup-script.git
+git clone https://github.com/toddcircle/Bluefin-OS-Desktop-setup-script.git
 
 # Enter the directory
 cd gnome-setup-script
