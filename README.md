@@ -6,7 +6,11 @@ This script sets the following GNOME desktop preferences
 
 - **Dual-sided window control buttons**  
   (Mac + Window$ style) I sometimes get confused moving the mouse to close the window only to find the contorls are on the other side.
-  Problem solved.
+ 
+    As a site note due to Mozilla weirdness:  
+      Firefox - right click on customize toolbar, click customize toolbar, in the bottom left of the screen -tick the box labelled "Title Bar"
+      Thunderbird - Vegetarian Hamburger menu, Settings, search for title, untick the box beside "Hide system window titlebar"
+     Problem solved.
 
 - **Right-click on titlebar or window borders**  
   Throws the window to the back of the pile if you have multiple open windows on top of each other, to quickly find the one you're after.
