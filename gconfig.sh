@@ -5,5 +5,6 @@ gsettings set org.gnome.desktop.peripherals.mouse natural-scroll true
 gsettings set org.gnome.nautilus.preferences always-use-location-entry true
 
 # Symlink wallpapers to backgrounds for use with Linux Theme Store
+mkdir -p ~/.local/share/backgrounds
 rm -rf ~/.local/share/wallpapers
 ln -s ~/.local/share/backgrounds ~/.local/share/wallpapers
