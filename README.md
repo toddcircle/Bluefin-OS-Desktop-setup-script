@@ -33,7 +33,7 @@ This script sets the following GNOME desktop preferences
   More useable this way.
 
 - **Adds missing apps**  
-  Adds Terminal and calculator to the dock.
+  Adds calculator to the dock.
 
 - **Redirects wallpapers folder to backgrounds**  
   Deletes ~/.local/share/wallpapers kde uses and creates a link to ~/.local/share/backgrounds.
