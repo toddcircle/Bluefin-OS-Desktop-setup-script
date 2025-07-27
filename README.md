@@ -53,7 +53,7 @@ Open a terminal and run the following commands:
 git clone https://github.com/toddcircle/Bluefin-OS-Desktop-setup-script.git
 
 # Enter the directory
-cd gnome-setup-script
+cd Bluefin-OS-Desktop-setup-script
 
 # Make the script executable
 chmod +x gconfig.sh
