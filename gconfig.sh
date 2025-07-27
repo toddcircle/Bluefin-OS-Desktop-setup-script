@@ -1,6 +1,6 @@
 #!/bin/bash
 
-gsettings set org.gnome.desktop.wm.preferences button-layout 'close,minimize,maximize:maxmaximize,minimize,close'
+gsettings set org.gnome.desktop.wm.preferences button-layout 'close,minimize,maximize:maximize,minimize,close'
 gsettings set org.gnome.desktop.wm.preferences action-right-click-titlebar 'lower'
 gsettings set org.gnome.desktop.peripherals.mouse natural-scroll true
 gsettings set org.gnome.nautilus.preferences always-use-location-entry true
@@ -16,7 +16,12 @@ flatpak info com.brave.Browser >/dev/null 2>&1 || flatpak install -y flathub com
 gsettings set org.gnome.shell favorite-apps "$(python3 -c '
 import json, sys
 favs = json.loads(sys.stdin.read())
-new = ["gnome-calculator.desktop", "org.gnome.gedit.desktop", "com.brave.Browser.desktop"]
+new = [
+    "gnome-calculator.desktop",
+    "org.gnome.gedit.desktop",
+    "com.brave.Browser.desktop",
+    "com.boxbuddy.BoxBuddy.desktop"
+]
 for app in new:
     if app not in favs:
         favs.append(app)
