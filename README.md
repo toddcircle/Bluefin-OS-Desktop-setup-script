@@ -34,7 +34,7 @@ currently for use with Bluefin OS.
   More useable this way.
 
 - **Disable multiple desktops**  
-  Only 1 workspace because... whats the point.
+  Only 1 workspace because... what's the point.
   
 - **Adds missing apps**  
   Installs gedit, Brave Browser, Linux Theme Store, and Boxbuddy as a flatpak
