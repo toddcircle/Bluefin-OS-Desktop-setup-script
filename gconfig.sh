@@ -12,6 +12,7 @@ gsettings set org.gnome.desktop.interface enable-hot-corners true
 flatpak info org.gnome.gedit >/dev/null 2>&1 || flatpak install -y flathub org.gnome.gedit
 flatpak info com.brave.Browser >/dev/null 2>&1 || flatpak install -y flathub com.brave.Browser
 flatpak info io.github.dvlv.boxbuddyrs >/dev/null 2>&1 || flatpak install -y flathub io.github.dvlv.boxbuddyrs
+flatpak info io.github.debasish_patra_1987.linuxthemestore >/dev/null 2>&1 || flatpak install -y flathub io.github.debasish_patra_1987.linuxthemestore
 
 # Add apps to dock favorites in one command to avoid overwriting
 gsettings set org.gnome.shell favorite-apps "$(python3 -c '
@@ -20,6 +21,7 @@ favs = json.loads(sys.stdin.read())
 new = [
     "gnome-calculator.desktop",
     "org.gnome.gedit.desktop",
+    "io.github.debasish_patra_1987.linuxthemestore.desktop",
     "com.brave.Browser.desktop",
     "io.github.dvlv.boxbuddyrs.desktop"
 ]
