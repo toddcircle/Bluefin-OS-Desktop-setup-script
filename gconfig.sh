@@ -9,10 +9,10 @@ gsettings set org.gnome.settings-daemon.plugins.power ambient-enabled false
 gsettings set org.gnome.desktop.interface enable-hot-corners true
 
 # Flatpak installs
-flatpak info org.gnome.gedit >/dev/null 2>&1 || flatpak install --user -y flathub org.gnome.gedit
-flatpak info com.brave.Browser >/dev/null 2>&1 || flatpak install --user -y flathub com.brave.Browser
-flatpak info io.github.dvlv.boxbuddyrs >/dev/null 2>&1 || flatpak install --user -y flathub io.github.dvlv.boxbuddyrs
-flatpak info io.github.debasish_patra_1987.linuxthemestore >/dev/null 2>&1 || flatpak install --user -y flathub io.github.debasish_patra_1987.linuxthemestore
+flatpak info org.gnome.gedit >/dev/null 2>&1 || flatpak install -y flathub org.gnome.gedit
+flatpak info com.brave.Browser >/dev/null 2>&1 || flatpak install -y flathub com.brave.Browser
+flatpak info io.github.dvlv.boxbuddyrs >/dev/null 2>&1 || flatpak install -y flathub io.github.dvlv.boxbuddyrs
+flatpak info io.github.debasish_patra_1987.linuxthemestore >/dev/null 2>&1 || flatpak install -y flathub io.github.debasish_patra_1987.linuxthemestore
 
 # Add apps to dock favorites in one command to avoid overwriting
 gsettings set org.gnome.shell favorite-apps "$(python3 -c '
