@@ -6,7 +6,7 @@ gsettings set org.gnome.nautilus.preferences always-use-location-entry true
 gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 gsettings set org.gnome.settings-daemon.plugins.power ambient-enabled false
 gsettings set org.gnome.desktop.interface enable-hot-corners true
-gsettings set org.gnome.shell favorite-apps "$(python3 -c 'import json, sys; new = ["org.gnome.Terminal.desktop", "gnome-calculator.desktop"]; current = json.loads(sys.stdin.read()); ordered = new + [x for x in current if x not in new]; print(json.dumps(ordered))' <<< "$(gsettings get org.gnome.shell favorite-apps | sed "s/'/\"/g")")"
+gsettings set org.gnome.shell favorite-apps "$(python3 -c 'import json, sys; favs = json.loads(sys.stdin.read()); new = ["gnome-calculator.desktop"]; [favs.append(app) for app in new if app not in favs]; print(json.dumps(favs))' <<< "$(gsettings get org.gnome.shell favorite-apps | sed "s/'/\"/g")")"
 
 # Symlink wallpapers to backgrounds for use with Linux Theme Store
 mkdir -p ~/.local/share/backgrounds
