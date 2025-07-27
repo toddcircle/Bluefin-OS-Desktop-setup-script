@@ -5,7 +5,7 @@ gsettings set org.gnome.desktop.peripherals.mouse natural-scroll true
 gsettings set org.gnome.nautilus.preferences always-use-location-entry true
 gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 gsettings set org.gnome.settings-daemon.plugins.power ambient-enabled false
-gsettings set org.gnome.shell enable-hot-corners true
+gsettings set org.gnome.desktop.interface enable-hot-corners true
 
 # Symlink wallpapers to backgrounds for use with Linux Theme Store
 mkdir -p ~/.local/share/backgrounds
