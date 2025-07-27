@@ -3,6 +3,7 @@ gsettings set org.gnome.desktop.wm.preferences button-layout 'close,minimize,max
 gsettings set org.gnome.desktop.wm.preferences action-right-click-titlebar 'lower'
 gsettings set org.gnome.desktop.peripherals.mouse natural-scroll true
 gsettings set org.gnome.nautilus.preferences always-use-location-entry true
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 
 # Symlink wallpapers to backgrounds for use with Linux Theme Store
 mkdir -p ~/.local/share/backgrounds
