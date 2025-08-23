@@ -3,6 +3,11 @@
 This script sets the following GNOME desktop preferences 
 currently for use with Bluefin OS.
 
+NOTE:  the first line for the dual sided controls currently breaks firefox.
+to get firefox working again after running the cript use:
+gsettings set org.gnome.desktop.wm.preferences button-layout ':close'
+
+
 ## 🔧 Features
 
 - **Dual-sided window control buttons**  
