@@ -11,6 +11,7 @@ gsettings set org.gnome.mutter dynamic-workspaces false
 gsettings set org.gnome.desktop.wm.preferences num-workspaces 1
 
 # Flatpak installs
+flatpak info org.gnome.gedit >/dev/null 2>&1 || flatpak install -y flathub org.gnome.gedit
 flatpak info com.brave.Browser >/dev/null 2>&1 || flatpak install -y flathub com.brave.Browser
 flatpak info io.github.dvlv.boxbuddyrs >/dev/null 2>&1 || flatpak install -y flathub io.github.dvlv.boxbuddyrs
 flatpak info io.github.debasish_patra_1987.linuxthemestore >/dev/null 2>&1 || flatpak install -y flathub io.github.debasish_patra_1987.linuxthemestore
@@ -23,6 +24,7 @@ import json, sys
 favs = json.loads(sys.stdin.read())
 new = [
     "gnome-calculator.desktop",
+    "org.gnome.gedit.desktop",
     "io.github.debasish_patra_1987.linuxthemestore.desktop",
     "com.brave.Browser.desktop",
     "best.ellie.StartupConfiguration.desktop",
